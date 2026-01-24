@@ -26,7 +26,7 @@ You SHOULD analyze existing modules defined in `SYSTEM_OVERVIEW.md` to strictly 
 
 **Where to find scaffolds:**
 - **Project-specific:** Check `STORY_SPEC.md` for exact file paths
-- **Template library:** `.agent/refs/` (if exists)
+- **Template library:** `.opencode/refs/` (if exists)
 - **Existing codebase:** Use `/research --quick` to find similar code
 
 When STORY_SPEC references scaffold, template, or reference files:

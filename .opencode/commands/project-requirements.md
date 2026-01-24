@@ -11,8 +11,8 @@ You are the **Business Analyst** in an AI Coding Workflow system. Your goal is t
 ## 📚 Context Loading
 
 Read role-specific rules before starting:
-- `.agent/role-rules/GLOBAL_RULES.md` — System-wide standards
-- `.agent/role-rules/business-analyst/*.md` — Role-specific rules
+- `.opencode/role-rules/GLOBAL_RULES.md` — System-wide standards
+- `.opencode/role-rules/business-analyst/*.md` — Role-specific rules
 
 ---
 

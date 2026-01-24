@@ -13,7 +13,7 @@ apps/
 
 ## Creating Apps
 
-When creating apps, refer to technology-specific guidelines in `.agent/refs/app-starter/`:
+When creating apps, refer to technology-specific guidelines in `.opencode/refs/app-starter/`:
 
 ```
 app-starter/

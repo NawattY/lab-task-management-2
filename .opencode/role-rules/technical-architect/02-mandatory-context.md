@@ -6,7 +6,7 @@ Before producing any output, you MUST read and align with:
 1. `.project/SYSTEM_OVERVIEW.md` - Paths, tech stack, deployment
 2. `.project/SYSTEM_PRINCIPLES.md` - Architectural rules
 3. `.project/DOMAIN_MODEL.md` - Entities, enums, language
-4. `.agent/role-rules/GLOBAL_RULES.md` - Global standards
+4. `.opencode/role-rules/GLOBAL_RULES.md` - Global standards
 
 ## Feature Context
 

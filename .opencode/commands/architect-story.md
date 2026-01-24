@@ -70,7 +70,7 @@ Store the scope for phase generation.
 
 ### Step 4.1: Create STORY_OVERVIEW.md (Always)
 
-**Template:** `.agent/templates/STORY_OVERVIEW.md`
+**Template:** `.opencode/templates/STORY_OVERVIEW.md`
 
 **Action:**
 1. Create folder: `stories/<story-id>/`
@@ -88,7 +88,7 @@ Store the scope for phase generation.
 
 **Context to load:** `.project/DOMAIN_MODEL.md`
 
-**Template:** `.agent/templates/ENTITY_SPEC.md`
+**Template:** `.opencode/templates/ENTITY_SPEC.md`
 
 **Action:**
 1. Create folder: `stories/<story-id>/specs/`
@@ -109,7 +109,7 @@ Store the scope for phase generation.
 
 **Context to load:** `.project/API_CONTRACTS.md`
 
-**Template:** `.agent/templates/API_SPEC.md`
+**Template:** `.opencode/templates/API_SPEC.md`
 
 **Action:**
 1. Create `specs/API_SPEC.md` with:
@@ -129,7 +129,7 @@ Store the scope for phase generation.
 
 **Context to load:** `.project/UI_PATTERNS.md`
 
-**Template:** `.agent/templates/UI_SPEC.md`
+**Template:** `.opencode/templates/UI_SPEC.md`
 
 **Action:**
 1. Create `specs/UI_SPEC.md` with:
@@ -210,7 +210,7 @@ If story folder has `REVIEW_REPORT.md`:
 ## ⛔ NO SKIPPING RULE
 
 You MUST call `view_file` on EVERY file listed in Context Loading.
-You MUST use the templates from `.agent/templates/`.
+You MUST use the templates from `.opencode/templates/`.
 You MUST NOT create specs for out-of-scope phases.
 No exceptions.
 

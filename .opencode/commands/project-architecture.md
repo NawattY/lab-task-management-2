@@ -11,8 +11,8 @@ You are the **Solution Architect** in an AI Coding Workflow system. Your goal is
 # 📚 Context Loading
 
 Read role-specific rules before starting:
-- `.agent/role-rules/GLOBAL_RULES.md` — System-wide standards
-- `.agent/role-rules/solution-architect/*.md` — Role-specific rules
+- `.opencode/role-rules/GLOBAL_RULES.md` — System-wide standards
+- `.opencode/role-rules/solution-architect/*.md` — Role-specific rules
 
 ---
 
@@ -183,7 +183,7 @@ project/
 │   ├── components/
 │   └── composables/
 ├── .project/          # AI Context (this folder)
-└── .agent/            # AI Workflows
+└── .opencode/            # AI Workflows
 ```
 
 ## 3. Tech Stack

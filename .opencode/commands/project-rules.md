@@ -150,7 +150,7 @@ Generate PROJECT_RULES.md?
 ````markdown
 # Project Rules
 
-> **Project-specific development rules.** Base rules are in `.agent/role-rules/GLOBAL_RULES.md` Section 4.
+> **Project-specific development rules.** Base rules are in `.opencode/role-rules/GLOBAL_RULES.md` Section 4.
 
 ---
 
@@ -166,7 +166,7 @@ Generate PROJECT_RULES.md?
 
 Before marking a story complete, verify:
 
-> **Base checklist:** See `.agent/role-rules/GLOBAL_RULES.md` Section 4.4
+> **Base checklist:** See `.opencode/role-rules/GLOBAL_RULES.md` Section 4.4
 
 **Project-specific additions:**
 
