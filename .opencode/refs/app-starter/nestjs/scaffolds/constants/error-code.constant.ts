@@ -1,0 +1,19 @@
+export const ERROR_CODE = {
+  // Global
+  VALIDATE_ERROR: 100422,
+  NOT_FOUND: 100404,
+  CONFLICT: 100409,
+  INTERNAL_SERVER_ERROR: 100500,
+
+  // Auth
+  UNAUTHORIZED: 101401,
+  INVALID_CREDENTIALS: 101402,
+  INVALID_REFRESH_TOKEN: 101000,
+  INVALID_TOKEN: 101403,
+
+  // Example (Template for new modules)
+  EXAMPLE_NOT_FOUND: 102404,
+  EXAMPLE_ALREADY_EXISTS: 102409,
+} as const;
+
+export type ErrorCode = (typeof ERROR_CODE)[keyof typeof ERROR_CODE];
