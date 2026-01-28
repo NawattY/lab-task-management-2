@@ -101,7 +101,6 @@ Standardized envelope for all errors (4xx, 5xx).
 | **Pagination** | `?page=1&perPage=10` | Standard pagination |
 | **Sorting** | `?sort=createdAt:desc` | Field:Direction |
 | **Filtering** | `?filter[status]=active` | Field specific filtering |
-| **Search** | `?search=keyword` | General text search |
 
 ## 6. Rate Limiting
 
